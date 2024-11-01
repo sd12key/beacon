@@ -1,5 +1,3 @@
-// Eugene Kepich
-
 class menu_dish {
   constructor(
     dish_id,
