@@ -1,0 +1,386 @@
+{
+  "menu": [
+    {
+      "id": "cat_01",
+      "name": "Starters",
+      "description": "Start your dining experience at The Bistro with a selection of expertly crafted starters, designed to tantalize the taste buds and prepare you for the main courses ahead. Each dish offers a unique twist on classic flavors, perfect for sharing with friends or enjoying on your own.",
+      "image": "cat_01.jpg",
+      "dishes": [
+        {
+          "id": "cat_01_dish_01",
+          "name": "Bruschetta Trio",
+          "short_name": "Bruschetta",
+          "description": "Our Bruschetta Trio features three vibrant flavors, each a work of culinary art. Enjoy the classic tomato-basil combination, bursting with freshness from ripe tomatoes and fragrant basil atop toasted baguette slices.",
+          "price": 9.5,
+          "availability": 99,
+          "image": "cat_01_dish_01.jpg"
+        },
+        {
+          "id": "cat_01_dish_02",
+          "name": "Stuffed Mushrooms",
+          "short_name": "Mushrooms",
+          "description": "These delectable stuffed mushrooms bring a symphony of textures and flavors to your plate. Each mushroom cap is generously filled with a blend of fine cheeses, aromatic herbs, and crunchy breadcrumbs, then baked to golden perfection.",
+          "price": 10.0,
+          "availability": 99,
+          "image": "cat_01_dish_02.jpg"
+        },
+        {
+          "id": "cat_01_dish_03",
+          "name": "Garlic Shrimp",
+          "short_name": "Shrimp",
+          "description": "Plump, juicy shrimp sautéed in a luscious garlic-butter sauce, delivering a punch of flavor with every bite. Each shrimp is cooked to perfection, maintaining its natural sweetness and tenderness.",
+          "price": 12.0,
+          "availability": 99,
+          "image": "cat_01_dish_03.jpg"
+        },
+        {
+          "id": "cat_01_dish_04",
+          "name": "Roasted Red Pepper Hummus with Pita and Veggies",
+          "short_name": "Hummus",
+          "description": "Our Roasted Red Pepper Hummus is a smooth blend of chickpeas, roasted red peppers, tahini, and spices, delivering a smoky and mildly sweet flavor.",
+          "price": 8.5,
+          "availability": 99,
+          "image": "cat_01_dish_04.jpg"
+        },
+        {
+          "id": "cat_01_dish_05",
+          "name": "Crispy Calamari with Lemon Aioli",
+          "short_name": "Calamari",
+          "description": "Lightly breaded and fried to golden perfection, our calamari is tender and deliciously crispy. Served with a tangy lemon aioli for dipping.",
+          "price": 12.5,
+          "availability": 99,
+          "image": "cat_01_dish_05.jpg"
+        },
+        {
+          "id": "cat_01_dish_06",
+          "name": "Spinach and Artichoke Dip with Toasted Baguette",
+          "short_name": "Spinach Dip",
+          "description": "A warm and creamy blend of spinach, artichokes, and a trio of cheeses, baked until bubbly and golden.",
+          "price": 11.0,
+          "availability": 99,
+          "image": "cat_01_dish_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cat_02",
+      "name": "Signature Dishes",
+      "description": "Our Signature Dishes embody the heart and soul of The Bistro. These plates are crafted to be satisfying and complete, balancing proteins, vegetables, and grains for a meal that’s both nourishing and indulgent.",
+      "image": "cat_02.jpg",
+      "dishes": [
+        {
+          "id": "cat_02_dish_01",
+          "name": "Grilled Ribeye Steak with Garlic Mashed Potatoes and Seasonal Vegetables",
+          "short_name": "Ribeye Steak",
+          "description": "Our Grilled Ribeye Steak is a celebration of flavor and texture, cooked to your preference and served with a side of creamy, roasted garlic mashed potatoes.",
+          "price": 24.0,
+          "availability": 99,
+          "image": "cat_02_dish_01.jpg"
+        },
+        {
+          "id": "cat_02_dish_02",
+          "name": "Seared Salmon with Lemon-Dill Sauce, Asparagus, and Wild Rice",
+          "short_name": "Seared Salmon",
+          "description": "This dish showcases the delicate flavors of Atlantic salmon, seared to perfection with a crispy exterior and tender, flaky interior.",
+          "price": 22.0,
+          "availability": 99,
+          "image": "cat_02_dish_02.jpg"
+        },
+        {
+          "id": "cat_02_dish_03",
+          "name": "Chicken Piccata",
+          "short_name": "Chicken Piccata",
+          "description": "Lightly breaded chicken breast in a tangy lemon-caper sauce, served with angel hair pasta and sautéed greens.",
+          "price": 18.5,
+          "availability": 99,
+          "image": "cat_02_dish_03.jpg"
+        },
+        {
+          "id": "cat_02_dish_04",
+          "name": "Vegetable Stir-Fry",
+          "short_name": "Stir-Fry",
+          "description": "Colorful seasonal vegetables stir-fried with a savory sauce, served over jasmine rice.",
+          "price": 16.0,
+          "availability": 99,
+          "image": "cat_02_dish_04.jpg"
+        },
+        {
+          "id": "cat_02_dish_05",
+          "name": "Classic Burger",
+          "short_name": "Burger",
+          "description": "An all-beef patty with cheddar, lettuce, tomato, and house-made aioli on a brioche bun, served with crispy fries.",
+          "price": 15.0,
+          "availability": 99,
+          "image": "cat_02_dish_05.jpg"
+        },
+        {
+          "id": "cat_02_dish_06",
+          "name": "Pork Tenderloin Medallions",
+          "short_name": "Pork Medallions",
+          "description": "Pan-seared pork medallions with apple-cider reduction, served with creamy polenta and sautéed spinach.",
+          "price": 19.0,
+          "availability": 99,
+          "image": "cat_02_dish_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cat_03",
+      "name": "Specialty Bowls or Plates",
+      "description": "Designed for those seeking a wholesome, complete meal, our Specialty Bowls and Plates offer a variety of flavors and textures that come together in every bite.",
+      "image": "cat_03.jpg",
+      "dishes": [
+        {
+          "id": "cat_03_dish_01",
+          "name": "Quinoa Buddha Bowl with Sweet Potatoes, Chickpeas, and Tahini Dressing",
+          "short_name": "Buddha Bowl",
+          "description": "Our Quinoa Buddha Bowl is a colorful array of flavors and textures, featuring protein-packed quinoa, roasted sweet potatoes, crispy chickpeas, and creamy avocado.",
+          "price": 14.0,
+          "availability": 99,
+          "image": "cat_03_dish_01.jpg"
+        },
+        {
+          "id": "cat_03_dish_02",
+          "name": "Chicken Alfredo Pasta",
+          "short_name": "Alfredo Pasta",
+          "description": "Creamy Alfredo sauce with grilled chicken and fettuccine, topped with fresh parsley and Parmesan.",
+          "price": 17.0,
+          "availability": 99,
+          "image": "cat_03_dish_02.jpg"
+        },
+        {
+          "id": "cat_03_dish_03",
+          "name": "Mediterranean Couscous Salad",
+          "short_name": "Couscous Salad",
+          "description": "A chilled couscous bowl with cherry tomatoes, cucumber, olives, feta, and lemon vinaigrette.",
+          "price": 13.5,
+          "availability": 99,
+          "image": "cat_03_dish_03.jpg"
+        },
+        {
+          "id": "cat_03_dish_04",
+          "name": "Teriyaki Salmon Bowl",
+          "short_name": "Salmon Bowl",
+          "description": "Grilled salmon on a bed of rice with steamed broccoli, carrots, and a drizzle of teriyaki sauce.",
+          "price": 16.0,
+          "availability": 99,
+          "image": "cat_03_dish_04.jpg"
+        },
+        {
+          "id": "cat_03_dish_05",
+          "name": "Beef & Rice Bowl",
+          "short_name": "Beef Bowl",
+          "description": "Tender beef strips over rice, topped with pickled vegetables and a drizzle of spicy mayo.",
+          "price": 15.5,
+          "availability": 99,
+          "image": "cat_03_dish_05.jpg"
+        },
+        {
+          "id": "cat_03_dish_06",
+          "name": "Caprese Pasta",
+          "short_name": "Caprese Pasta",
+          "description": "Penne pasta tossed with cherry tomatoes, basil, fresh mozzarella, and a light balsamic glaze.",
+          "price": 13.0,
+          "availability": 99,
+          "image": "cat_03_dish_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cat_04",
+      "name": "Seasonal Specials",
+      "description": "Our Seasonal Specials rotate with the change of seasons, bringing the best of local and fresh ingredients to your plate. These dishes celebrate the flavors of each season.",
+      "image": "cat_04.jpg",
+      "dishes": [
+        {
+          "id": "cat_04_dish_01",
+          "name": "Pumpkin Risotto with Parmesan and Crispy Sage",
+          "short_name": "Pumpkin Risotto",
+          "description": "Embrace the flavors of fall with our creamy Pumpkin Risotto, a cozy dish that combines the richness of Parmesan with the warm aroma of crispy sage.",
+          "price": 16.0,
+          "availability": 99,
+          "image": "cat_04_dish_01.jpg"
+        },
+        {
+          "id": "cat_04_dish_02",
+          "name": "Butternut Squash Ravioli",
+          "short_name": "Squash Ravioli",
+          "description": "House-made ravioli filled with roasted butternut squash, served in a brown butter sauce.",
+          "price": 18.0,
+          "availability": 99,
+          "image": "cat_04_dish_02.jpg"
+        },
+        {
+          "id": "cat_04_dish_03",
+          "name": "Maple Glazed Pork Chops",
+          "short_name": "Pork Chops",
+          "description": "Pork chops with a maple glaze, served with roasted brussels sprouts and mashed sweet potatoes.",
+          "price": 20.0,
+          "availability": 99,
+          "image": "cat_04_dish_03.jpg"
+        },
+        {
+          "id": "cat_04_dish_04",
+          "name": "Autumn Harvest Salad",
+          "short_name": "Harvest Salad",
+          "description": "Mixed greens with apples, cranberries, walnuts, and goat cheese, dressed with apple cider vinaigrette.",
+          "price": 15.0,
+          "availability": 99,
+          "image": "cat_04_dish_04.jpg"
+        },
+        {
+          "id": "cat_04_dish_05",
+          "name": "Wild Mushroom Pasta",
+          "short_name": "Mushroom Pasta",
+          "description": "A selection of wild mushrooms in a light cream sauce over linguine, topped with fresh thyme.",
+          "price": 16.5,
+          "availability": 99,
+          "image": "cat_04_dish_05.jpg"
+        },
+        {
+          "id": "cat_04_dish_06",
+          "name": "Hearty Beef Stew",
+          "short_name": "Beef Stew",
+          "description": "Tender chunks of beef with root vegetables, slow-cooked in a rich broth, served with crusty bread.",
+          "price": 19.5,
+          "availability": 99,
+          "image": "cat_04_dish_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cat_05",
+      "name": "Desserts",
+      "description": "Indulge your sweet tooth with our selection of desserts, each crafted to provide a delightful ending to your meal. Our desserts range from rich, chocolatey treats to light, refreshing bites.",
+      "image": "cat_05.jpg",
+      "dishes": [
+        {
+          "id": "cat_05_dish_01",
+          "name": "Molten Chocolate Cake with Vanilla Ice Cream",
+          "short_name": "Molten Cake",
+          "description": "This Molten Chocolate Cake is a chocoholic’s dream, featuring a warm, gooey center that oozes out with each forkful.",
+          "price": 8.0,
+          "availability": 99,
+          "image": "cat_05_dish_01.jpg"
+        },
+        {
+          "id": "cat_05_dish_02",
+          "name": "Classic Cheesecake",
+          "short_name": "Cheesecake",
+          "description": "A creamy New York-style cheesecake with a graham cracker crust and seasonal berry topping.",
+          "price": 7.5,
+          "availability": 99,
+          "image": "cat_05_dish_02.jpg"
+        },
+        {
+          "id": "cat_05_dish_03",
+          "name": "Apple Crisp",
+          "short_name": "Apple Crisp",
+          "description": "Baked apples with cinnamon and oats, topped with vanilla ice cream.",
+          "price": 7.0,
+          "availability": 99,
+          "image": "cat_05_dish_03.jpg"
+        },
+        {
+          "id": "cat_05_dish_04",
+          "name": "Tiramisu",
+          "short_name": "Tiramisu",
+          "description": "Traditional Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.",
+          "price": 8.5,
+          "availability": 99,
+          "image": "cat_05_dish_04.jpg"
+        },
+        {
+          "id": "cat_05_dish_05",
+          "name": "Lemon Tart",
+          "short_name": "Lemon Tart",
+          "description": "A refreshing tart with a buttery crust and tangy lemon filling, topped with a dusting of powdered sugar.",
+          "price": 6.5,
+          "availability": 99,
+          "image": "cat_05_dish_05.jpg"
+        },
+        {
+          "id": "cat_05_dish_06",
+          "name": "Profiteroles",
+          "short_name": "Profiteroles",
+          "description": "Light pastry puffs filled with vanilla cream and drizzled with chocolate sauce.",
+          "price": 9.0,
+          "availability": 99,
+          "image": "cat_05_dish_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cat_06",
+      "name": "Beverages",
+      "description": "Our beverage selection is designed to complement your meal, offering refreshing options for every palate.",
+      "image": "cat_06.jpg",
+      "dishes": [
+        {
+          "id": "cat_06_dish_01",
+          "name": "Classic Lemonade with Fresh Lemons",
+          "short_name": "Lemonade",
+          "description": "Our Classic Lemonade is made with freshly squeezed lemons, providing a bright, refreshing flavor that’s perfect for pairing with any meal.",
+          "price": 3.5,
+          "image": "cat_06_dish_01.jpg"
+        },
+        {
+          "id": "cat_06_dish_02",
+          "name": "House-Brewed Iced Tea",
+          "short_name": "Iced Tea",
+          "description": "Our house-brewed iced tea is a refreshing blend of black tea, available in classic lemon or peach flavors.",
+          "price": 3.5,
+          "image": "cat_06_dish_02.jpg"
+        },
+        {
+          "id": "cat_06_dish_03",
+          "name": "Bottled Sparkling Water (Classic or Lemon-Lime)",
+          "short_name": "Sparkling Water",
+          "description": "Crisp and refreshing, our sparkling water is available in classic or lemon-lime flavor, offering a light effervescence that pairs well with any dish.",
+          "price": 3.0,
+          "image": "cat_06_dish_03.jpg"
+        },
+        {
+          "id": "cat_06_dish_04",
+          "name": "Freshly Brewed Coffee (Regular or Decaf)",
+          "short_name": "Coffee",
+          "description": "Our coffee is brewed fresh daily, made from a rich blend of beans that delivers a smooth and satisfying taste.",
+          "price": 2.5,
+          "image": "cat_06_dish_04.jpg"
+        },
+        {
+          "id": "cat_06_dish_05",
+          "name": "Coca-Cola",
+          "short_name": "Coca-Cola",
+          "description": "The timeless taste of Coca-Cola, served chilled for a refreshing, classic pairing with any meal.",
+          "price": 2.0,
+          "image": "cat_06_dish_05.jpg"
+        },
+        {
+          "id": "cat_06_dish_06",
+          "name": "Sprite",
+          "short_name": "Sprite",
+          "description": "Enjoy the crisp, lemon-lime flavor of Sprite, perfect for a light and refreshing lift with your meal.",
+          "price": 2.0,
+          "image": "cat_06_dish_06.jpg"
+        },
+        {
+          "id": "cat_06_dish_07",
+          "name": "Root Beer",
+          "short_name": "Root Beer",
+          "description": "A classic root beer with a rich, creamy taste, perfect for a nostalgic, sweet addition to your meal.",
+          "price": 2.0,
+          "image": "cat_06_dish_07.jpg"
+        },
+        {
+          "id": "cat_06_dish_08",
+          "name": "Seasonal Signature Mocktail (e.g., Cranberry-Mint Spritzer)",
+          "short_name": "Signature Mocktail",
+          "description": "Our signature mocktail changes with the seasons, featuring refreshing flavors like a cranberry-mint spritzer in winter or a cucumber-basil cooler in summer.",
+          "price": 5.5,
+          "image": "cat_06_dish_08.jpg"
+        }
+      ]
+    }
+  ]
+}

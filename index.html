@@ -1,0 +1,445 @@
+<!-- Eugene Kepich -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stint+Ultra+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Experience The Beacon, a cozy restaurant near the famous lighthouse offering fresh, local flavors, a warm ambiance, and online ordering for convenient takeout. Perfect for any occasion in a scenic coastal setting."
+    />
+    <meta
+      name="keywords"
+      content="The Beacon, restaurant, cozy dining, coastal cuisine, St. John's restaurant, local ingredients, lighthouse dining, online ordering, takeout"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Beacon</title>
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="body_visible">
+      <div id="debug"></div>
+      <header class="header_container">
+        <div class="header_main">
+          <div class="beacon_logo_div">
+            <img
+              src="./images/lighthouse.svg"
+              alt="Lighthouse Picture"
+              class="beacon_logo_img"
+            />
+          </div>
+
+          <div class="beacon_container">
+            <div class="bistro_logo_div">
+              <img
+                src="./images/bistro.svg"
+                alt="Restaurant Picture"
+                class="bistro_logo_img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="restaurant_name_div">
+          <h1 class="the_beacon">THE BEACON</h1>
+          <h2 class="restaurant_text">RESTAURANT AND LOUNGE</h2>
+        </div>
+      </header>
+
+      <nav id="nav_container" class="nav_container">
+        <div id="nav_main" class="nav_main">
+          <ul>
+            <li id="nav_beacon">
+              <a href="javascript:void(0);">
+                <div>
+                  <span class="beacon_title">WELCOME</span
+                  ><span class="the_beacon_welcome">THE BEACON</span>
+                </div>
+                <div class="beacon_icon">
+                  <img
+                    src="./icons/welcome.svg"
+                    alt="Welcome Icon"
+                    class="beacon_img"
+                  />
+                </div>
+              </a>
+            </li>
+
+            <li id="nav_menu" class="align-right">
+              <a href="javascript:void(0);">
+                <div class="menu_title">MENU</div>
+                <div class="menu_icon">
+                  <img
+                    src="./icons/menu.svg"
+                    alt="Menu Icon"
+                    class="menu_img"
+                  />
+                </div>
+              </a>
+            </li>
+
+            <li id="nav_bag" class="cart">
+              <a href="javascript:void(0);">
+                <div class="bag_title">BAG</div>
+                <div class="bag_icon">
+                  <img src="./icons/bag.svg" alt="Bag Icon" class="bag_img" />
+                </div>
+
+                <div id="cart_count" class="bag_count">99</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main_content_container">
+        <div class="main_content_bg">
+          <div class="pattern_1"></div>
+          <div class="pattern_2"></div>
+          <div class="pattern_1"></div>
+          <div class="pattern_2"></div>
+          <div class="pattern_1"></div>
+          <div class="pattern_2"></div>
+          <div class="pattern_1"></div>
+          <div class="pattern_2"></div>
+          <div class="pattern_1"></div>
+          <div class="pattern_2"></div>
+          <div class="pattern_1"></div>
+          <div class="pattern_2"></div>
+        </div>
+
+        <div id="menu_content" class="menu_content">
+          <div id="menu_category_container" class="menu_category_container">
+            <div id="category_id" class="menu_category" style="display: none">
+              <div class="menu_category_heading">cat_heading</div>
+              <div class="menu_category_image">
+                <img
+                  src="https://via.placeholder.com/300"
+                  alt="category image"
+                />
+              </div>
+              <div class="menu_category_description">cat_description</div>
+              <button id="category_id_button" class="menu_category_button">
+                explore_button
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="main_content" class="main_content">
+          <main class="main_container">
+            <h1>Shining a Light on Exceptional Flavors</h1>
+            <div class="main_image">
+              <img
+                src="./images/the_beacon.jpg"
+                alt="The Beacon Restaurant Picture"
+                class="main_image_img"
+              />
+            </div>
+            <section class="main_section">
+              <p>
+                Welcome to The Beacon, premier destination for delicious cuisine
+                and cozy ambiance near the iconic lighthouse. Nestled in the
+                heart of this historic area, The Beacon offers a warm, inviting
+                space where locals and visitors alike can unwind, savor a meal,
+                and enjoy the charm of the waterfront.
+              </p>
+              <p>
+                Our passion for exceptional food and an atmosphere that reflects
+                our unique surroundings is evident in every dish and every
+                corner of our establishment. Our menu celebrates a variety of
+                flavors, featuring local ingredients and global inspirations.
+                From fresh seafood to comforting classics, we offer an
+                experience designed to be both memorable and nourishing. Whether
+                it’s brunch by the sea, a family dinner, or a relaxing evening
+                in our lounge, The Beacon is the ideal setting for every
+                occasion. Our chefs are dedicated to creating dishes that not
+                only satisfy your appetite but also capture the spirit of the
+                coast.
+              </p>
+              <p>
+                We are thrilled to introduce our new website, designed to make
+                your experience with us even more convenient. You can now place
+                orders for pickup directly through our online platform, making
+                it easier than ever to bring The Beacon home.
+              </p>
+              <p>
+                Simply browse our menu, customize your choices, and swing by to
+                pick up a freshly prepared meal whenever it suits you. We invite
+                you to come experience The Beacon, where each visit is a chance
+                to reconnect with great food, good company, and the vibrant
+                heritage of our town.
+              </p>
+            </section>
+          </main>
+          <aside class="news_container">
+            <h1>We Are In The News!</h1>
+            <section>
+              <h2>The Beacon Restaurant<br />Shines Bright</h2>
+              <p>
+                Nestled near the iconic Beacon Hill lighthouse, The Beacon has
+                quickly become a standout on on out town's dining map. Since its
+                grand opening, this cozy establishment has been serving up
+                exceptional coastal cuisine that has both locals and tourists
+                raving.
+              </p>
+              <p>
+                <em>“The atmosphere here is simply unique,”</em> shared Jane
+                O’Connell, a long-time resident.
+                <em>
+                  “The view of the lighthouse from the dining room creates such
+                  a tranquil setting, and the food is simply outstanding!”
+                </em>
+                From their famous Grilled Ribeye Steak to the seasonal seafood
+                specialties, The Beacon’s menu caters to a variety of tastes.
+                Head Chef Liam Donovan, a native of Newfoundland, prides himself
+                on using the freshest local ingredients to craft dishes that
+                capture the flavors of the Atlantic.
+              </p>
+              <p>
+                For those wanting to experience The Beacon’s charm at home, the
+                restaurant now offers convenient pickup orders through their
+                newly launched website. Whether you’re craving a hearty meal
+                after a day’s hike or celebrating a special occasion, The Beacon
+                promises an unforgettable dining experience.
+              </p>
+              <p>
+                <em>
+                  “It’s not just a restaurant; it’s a place where people come to
+                  enjoy Newfoundland’s natural beauty and hospitality,”
+                </em>
+                says owner Emily Walsh. The Beacon truly lives up to its name,
+                shining as a beacon of warmth, flavor, and Newfoundland pride.
+              </p>
+              <cite>Published by Local Times, October 2024</cite>
+            </section>
+          </aside>
+          <aside class="feedback_container">
+            <h1>Guest's Reviews</h1>
+            <blockquote>
+              <p>
+                Dining at The Beacon was an experience like no other! From the
+                moment we stepped in, we were welcomed with a warm, inviting
+                atmosphere that felt instantly like home. The cozy ambiance near
+                the lighthouse is so unique, blending the beauty of the coast
+                with a comforting sense of local charm. Every dish felt
+                carefully crafted, and the ingredients were fresh and flavorful,
+                reflecting the pride the team has in creating memorable meals.
+              </p>
+              <p>
+                The highlight for me was the seafood; it was so fresh and
+                perfectly seasoned! The Beacon is a gem for anyone who
+                appreciates quality food and an unbeatable setting. I look
+                forward to returning and exploring more of the menu – it’s a
+                place that leaves you eager to come back.
+              </p>
+            </blockquote>
+            <em>Emily Patterson, Corner Brook</em>
+          </aside>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer_container footer_left_container">
+          <div class="footer_sub_container beacon_1">1-800-2BEACON</div>
+          <div class="footer_sub_container beacon_2">
+            The Beacon <br />123 New Beacon Street <br />Beacon Heights, NL 4A1
+            2B3
+          </div>
+        </div>
+        <div class="footer_container footer_right_container">
+          <div class="footer_sub_container face_1">Follow us</div>
+          <div class="footer_sub_container face_2">
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="./icons/facebook.svg" alt="Facebook" /> </a
+            >&nbsp;
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="./icons/instagram.svg" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- shadow overlay start -->
+      <div id="shadow_overlay" class="shadow_overlay" style="display: none">
+        <!-- this is a template for the dialog box overlay -->
+        <!-- box overlay start -->
+        <div id="box_overlay" class="box_overlay" style="display: none">
+          <div class="box_overlay_content_div">
+            <div class="box_header">
+              <div class="box_header_text">Dialog Box</div>
+              <button id="box_close_button" class="box_close_button">
+                <img
+                  src="./icons/close.svg"
+                  alt="Close"
+                  class="box_close_img"
+                />
+              </button>
+            </div>
+            <!-- box content start -->
+            <div class="box_content"></div>
+            <!-- box content end -->
+            <div class="box_footer">
+              <button id="box_footer_button_1" class="box_footer_button_1">
+                CLOSE
+              </button>
+              <button
+                id="box_footer_button_2"
+                class="box_footer_button_2"
+                style="display: none"
+              >
+                EMPTY
+              </button>
+              <button
+                id="box_footer_button_3"
+                class="box_footer_button_3"
+                style="display: none"
+              >
+                ORDER
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- box overlay end -->
+      </div>
+      <!-- shadow overlay end -->
+
+      <!-- dish item container start -->
+      <div
+        id="dish_item_container"
+        class="dish_item_container"
+        style="display: none"
+      >
+        <div class="dish_image_container">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="dish image"
+            class="dish_image_img"
+          />
+        </div>
+        <div class="dish_item_content">
+          <div class="dish_item_heading">dish name</div>
+          <div class="dish_item_description">dish description</div>
+          <div class="dish_item_price">$9.99</div>
+          <div class="dish_item_button">
+            <button id="cart_dish" class="add_dish_to_cart">ADD TO BAG</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- dish item container end -->
+
+      <!-- checkout container start -->
+      <div
+        id="checkout_container"
+        class="checkout_container"
+        style="display: none"
+      >
+        <!-- Order Total Section -->
+        <!-- Order Total Table -->
+        <div class="order_total_section">
+          <table class="order_total_table">
+            <thead>
+              <tr>
+                <th colspan="2" class="order_total_heading">Order Totals</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Subtotal:</td>
+                <td id="bag_subtotal">0</td>
+              </tr>
+              <tr>
+                <td>Tax (15%):</td>
+                <td id="bag_tax">0</td>
+              </tr>
+              <tr>
+                <td>Total Amount:</td>
+                <td id="bag_total">0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Order Form Section -->
+        <div class="order_form_section">
+          <form id="order_form" class="order_form">
+            <div class="order_form_row">
+              <label for="order_name">Name:</label>
+              <input
+                type="text"
+                id="order_name"
+                class="order_input"
+                placeholder="Your full name"
+              />
+            </div>
+            <div class="order_form_row">
+              <label for="order_tel">Telephone:</label>
+              <input
+                type="tel"
+                id="order_tel"
+                class="order_input"
+                placeholder="10 digits, with or without dashes"
+              />
+            </div>
+            <div class="order_form_row">
+              <label for="order_email">Email:</label>
+              <input
+                type="email"
+                id="order_email"
+                class="order_input"
+                placeholder="example@domain.com"
+              />
+            </div>
+            <div class="order_form_row">
+              <label for="order_credit_card">Credit Card #:</label>
+              <input
+                type="text"
+                id="order_credit_card"
+                class="order_input"
+                placeholder="1234 5678 9012 3456"
+              />
+            </div>
+            <div class="order_form_row">
+              <label for="order_exp">Exp:</label>
+              <input
+                type="text"
+                id="order_exp"
+                class="order_input_small"
+                placeholder="MM/YY"
+              />
+              <label for="order_cvv">CVV:</label>
+              <input
+                type="text"
+                id="order_cvv"
+                class="order_input_small"
+                placeholder="123"
+              />
+            </div>
+            <div class="order_form_row">
+              <label for="order_comments">Order Comments:</label>
+              <textarea
+                id="order_comments"
+                class="order_textarea"
+                placeholder="Add any notes for your order"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- checkout container end -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+  <!-- <script src="debug.js" defer></script> -->
+</html>
